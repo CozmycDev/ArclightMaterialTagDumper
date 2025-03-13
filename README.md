@@ -1,4 +1,4 @@
-# Minecraft Material Tag List Generator
+# Arclight Material Tag List Generator
 
 This Python script automates the process of extracting material tags from Minecraft mods and the base game, generating a comprehensive JSON file. This is particularly useful for server administrators and plugin developers using Arclight, which supports modded materials within Spigot plugin configurations.
 
@@ -23,7 +23,7 @@ Platforms like Arclight allow you to use modded materials in Spigot plugin confi
 3.  **Run the Script:**
     * Open a terminal or command prompt.
     * Navigate to the script's directory.
-    * Run the script: `python material_taglist_generator.py`
+    * Run the script: `python main.py`
 4.  **Configure Version:**
     * To change the Minecraft version, modify the `version` variable in the `main()` function within the script. For example: `version = "1.18.2"`
 5.  **Configure Mods Folder:**
